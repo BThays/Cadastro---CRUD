@@ -1,0 +1,232 @@
+/*Css*/
+
+
+body{
+    margin: auto;
+    background-color: azure;
+    background-image: url("../imagens/predios1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#caixa_principal{
+    width: 920px;
+    height:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    opacity: 0.8;
+
+}
+
+#caixa_cadastro{
+    width: 605px;
+    height:600px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+#titulo{
+    width: 920px;
+    height:10px;
+    background-color: black;
+    
+}
+
+#titulo_cadastro{
+    width: 600px;
+    height:60px;
+    background-color: black;
+    line-height: 2.90;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 15px;
+    opacity: 1;
+    
+}
+.caixa_organizadora{
+    width:500px;
+    height:60px;
+    background-color: black;
+    margin-top: 5px;
+    border-radius: 30px;
+}
+
+#caixa_organizadora_obs{
+    width:500px;
+    height:90px;
+    background: black;
+    margin-top: 5px;
+}
+
+.caixa{
+    width:200px;
+    height:50px;
+    background: black;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 2.90;
+    margin-top: 5px;
+    margin-left: 2px;
+    border-radius: 10px 20px;
+}
+
+.caixa_input{
+    width:220px;
+    height:50px;
+    float:left;
+    background-color: black;
+    margin: 5px;
+    border-radius: 5px 5px;
+}
+
+.caixa_input input{
+    width:200px;
+    height:35px;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 5px 5px;
+}
+
+#caixa_radio{
+    float: right;
+    margin-right:100px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+#caixa_obs{
+    width:200px;
+    height:80px; 
+    background-color: black;
+    margin-left: 2px;
+    border-radius: 3px;
+    line-height: 3.80;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px 20px;
+}
+
+textarea{
+    width:220px;
+    height:80px; 
+    margin-left: 210px;
+    margin-top: -80;
+    overflow: scroll ;
+}
+
+#caixa_botoes{
+    float: right;
+    margin-right: 25px;
+    
+}
+
+#botao_input{
+    height: 30px;
+    border-radius: 4px; 
+    margin: 5px;
+    text-align: center;
+    border-color: skyblue;
+}
+
+#botao_input:hover{
+    background-color: black;
+    color: white;
+   
+}
+
+#botao_input:hover input{
+    border-color: black;
+     
+}
+
+#caixa_adiciona{
+    width: 900px;
+    height:200px;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: 25px;
+    border-radius: 30px;
+}
+
+#titulo_adiciona{
+    width: 750px;
+    height:40px;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    line-height: 1.99;
+    position: absolute;
+    margin-left: 65px;
+    margin-top:15px;
+    
+}
+
+#div_table{
+    width: 900px;
+    height:200px;
+    background-color: black; 
+    margin-top:60px;
+    position: absolute;
+    overflow: auto;
+}
+
+div {    
+    margin:0; /*Defina a separacao das colunas aqui*/
+    padding:0;
+}
+
+.linha{
+    padding:0;
+    float: left;
+        
+}
+
+.coluna{  
+    width:173; 
+    height:30px;
+    border: 1px solid #ffff;
+    float:left;
+    color: white;
+    line-height: 2.00;
+    text-align: center;
+    color: white;
+}
+
+.imagem{
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
